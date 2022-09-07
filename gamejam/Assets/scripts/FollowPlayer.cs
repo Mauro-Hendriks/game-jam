@@ -7,6 +7,7 @@ using UnityEngine.AI;
 public class FollowPlayer : MonoBehaviour
 {
     private GameObject Player;
+    float speed = 0;
 
     void Start()
     {
