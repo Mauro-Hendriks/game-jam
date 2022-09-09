@@ -24,9 +24,17 @@ public class Health : MonoBehaviour
         {
             takeDamage(10);
         }
-        if (Input.GetKeyDown("backspace"))
+        if (Input.GetKeyDown("backspace") & currentHealth != maxHealth)
         {
             healDamage(10);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "enemy")
+        {
+            takeDamage(10);
         }
     }
 
