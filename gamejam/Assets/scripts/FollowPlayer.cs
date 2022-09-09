@@ -6,9 +6,9 @@ using UnityEngine.AI;
 
 public class FollowPlayer : MonoBehaviour
 {
-    private GameObject Player;
-    float speed = 1f;
-
+    
+    public Transform target;//set target from inspector instead of looking in Update
+    public float speed = 3f;
 
     void Start()
     {
