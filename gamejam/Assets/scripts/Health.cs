@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
         {
             takeDamage(10);
         }
-        if (Input.GetKeyDown("backspace"))
+        if (Input.GetKeyDown("backspace") & currentHealth != maxHealth)
         {
             healDamage(10);
         }
