@@ -525,7 +525,6 @@ GameObject:
   - component: {fileID: 604379207}
   - component: {fileID: 604379206}
   - component: {fileID: 604379205}
-  - component: {fileID: 604379204}
   - component: {fileID: 604379210}
   m_Layer: 0
   m_Name: beast
@@ -534,21 +533,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &604379204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604379203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4ca2819f5dd9ac48a296559ea197363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  accelerationTime: 1
-  maxSpeed: 0.3
-  rb: {fileID: 604379206}
 --- !u!61 &604379205
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10494,7 +10478,7 @@ GameObject:
   - component: {fileID: 1162746410}
   - component: {fileID: 1162746415}
   m_Layer: 0
-  m_Name: player
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
