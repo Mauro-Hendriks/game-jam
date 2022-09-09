@@ -30,6 +30,14 @@ public class Health : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "enemy")
+        {
+            takeDamage(10);
+        }
+    }
+
     void takeDamage(int damage)
     {
         currentHealth -= damage;
