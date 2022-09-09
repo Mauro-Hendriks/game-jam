@@ -7,7 +7,8 @@ public class Nav : MonoBehaviour
 {
     public void GoToGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("land2");
+        //De main game scene
     }
 
     public void GoToMenu()
